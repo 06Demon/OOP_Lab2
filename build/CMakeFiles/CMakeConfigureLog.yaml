@@ -1,0 +1,1782 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineSystem.cmake:212 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Windows - 10.0.19045 - AMD64
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/"
+    found: "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\VMware\\VMware Workstation\\bin\\"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Python313\\Scripts\\"
+        - "C:\\Python313\\"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\MinGW\\bin"
+        - "C:\\Users\\mcmif\\Downloads\\russian_trusted_root_ca.cer"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Program Files\\PuTTY\\"
+        - "C:\\Program Files (x86)\\HP\\Common\\HPDestPlgIn\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\mcmif\\AppData\\Local\\Programs\\Python\\Python312\\Scripts\\"
+        - "C:\\Users\\mcmif\\AppData\\Local\\Programs\\Python\\Python312\\"
+        - "C:\\Users\\mcmif\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\mcmif\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Program Files\\JetBrains\\PyCharm Community Edition 2024.2\\bin"
+        - "C:\\Users\\mcmif\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\mysus64\\ucrt64\\bin"
+        - "C:\\Users\\mcmif\\AppData\\Roaming\\npm"
+        - "C:\\Program Files (x86)\\HP\\Common\\HPDestPlgIn\\"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Microsoft (R) Build Engine версии 16.11.2+f32259642 для .NET Framework
+      (C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+      
+      Сборка начата 08.10.2025 0:17:13.
+      Проект "C:\\Lobovikov\\Programming\\labs\\OOP\\lab2\\build\\CMakeFiles\\4.1.2\\CompilerIdC\\CompilerIdC.vcxproj" в узле 1 (целевые объекты по умолчанию).
+      PrepareForBuild:
+        Создание каталога "Debug\\".
+        Создание каталога "Debug\\CompilerIdC.tlog\\".
+      InitializeBuildStatus:
+        Создание "Debug\\CompilerIdC.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+      ClCompile:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc142.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> C:\\Lobovikov\\Programming\\labs\\OOP\\lab2\\build\\CMakeFiles\\4.1.2\\CompilerIdC\\CompilerIdC.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Файл "Debug\\CompilerIdC.tlog\\unsuccessfulbuild" удаляется.
+        Обращение к "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate".
+      Сборка проекта "C:\\Lobovikov\\Programming\\labs\\OOP\\lab2\\build\\CMakeFiles\\4.1.2\\CompilerIdC\\CompilerIdC.vcxproj" завершена (целевые объекты по умолчанию).
+      
+      Сборка успешно завершена.
+          Предупреждений: 0
+          Ошибок: 0
+      
+      Прошло времени 00:00:01.14
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        C:/Lobovikov/Programming/labs/OOP/lab2/build/CMakeFiles/4.1.2/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:65 (__resolve_tool_path)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:103 (__resolve_linker_path)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "link"
+    candidate_directories:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x64/"
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Python313/Scripts/"
+      - "C:/Python313/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/MinGW/bin/"
+      - "C:/Users/mcmif/Downloads/russian_trusted_root_ca.cer/"
+      - "C:/Program Files/nodejs/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
+      - "C:/Program Files/PuTTY/"
+      - "C:/Program Files (x86)/HP/Common/HPDestPlgIn/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/mcmif/AppData/Local/Programs/Python/Python312/Scripts/"
+      - "C:/Users/mcmif/AppData/Local/Programs/Python/Python312/"
+      - "C:/Users/mcmif/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/mcmif/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Program Files/JetBrains/PyCharm Community Edition 2024.2/bin/"
+      - "C:/Users/mcmif/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/mysus64/ucrt64/bin/"
+      - "C:/Users/mcmif/AppData/Roaming/npm/"
+    searched_directories:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x64/link.com"
+    found: "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x64/link.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\VMware\\VMware Workstation\\bin\\"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Python313\\Scripts\\"
+        - "C:\\Python313\\"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\MinGW\\bin"
+        - "C:\\Users\\mcmif\\Downloads\\russian_trusted_root_ca.cer"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Program Files\\PuTTY\\"
+        - "C:\\Program Files (x86)\\HP\\Common\\HPDestPlgIn\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\mcmif\\AppData\\Local\\Programs\\Python\\Python312\\Scripts\\"
+        - "C:\\Users\\mcmif\\AppData\\Local\\Programs\\Python\\Python312\\"
+        - "C:\\Users\\mcmif\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\mcmif\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Program Files\\JetBrains\\PyCharm Community Edition 2024.2\\bin"
+        - "C:\\Users\\mcmif\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\mysus64\\ucrt64\\bin"
+        - "C:\\Users\\mcmif\\AppData\\Roaming\\npm"
+        - "C:\\Program Files (x86)\\HP\\Common\\HPDestPlgIn\\"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:65 (__resolve_tool_path)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:104 (__resolve_linker_path)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lld-link"
+    candidate_directories:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x64/"
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Python313/Scripts/"
+      - "C:/Python313/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/MinGW/bin/"
+      - "C:/Users/mcmif/Downloads/russian_trusted_root_ca.cer/"
+      - "C:/Program Files/nodejs/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
+      - "C:/Program Files/PuTTY/"
+      - "C:/Program Files (x86)/HP/Common/HPDestPlgIn/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/mcmif/AppData/Local/Programs/Python/Python312/Scripts/"
+      - "C:/Users/mcmif/AppData/Local/Programs/Python/Python312/"
+      - "C:/Users/mcmif/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/mcmif/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Program Files/JetBrains/PyCharm Community Edition 2024.2/bin/"
+      - "C:/Users/mcmif/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/mysus64/ucrt64/bin/"
+      - "C:/Users/mcmif/AppData/Roaming/npm/"
+    searched_directories:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x64/lld-link.com"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x64/lld-link.exe"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x64/lld-link"
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/lld-link.com"
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/lld-link.exe"
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/lld-link"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/lld-link.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/lld-link.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/lld-link"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/lld-link.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/lld-link.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/lld-link"
+      - "C:/Python313/Scripts/lld-link.com"
+      - "C:/Python313/Scripts/lld-link.exe"
+      - "C:/Python313/Scripts/lld-link"
+      - "C:/Python313/lld-link.com"
+      - "C:/Python313/lld-link.exe"
+      - "C:/Python313/lld-link"
+      - "C:/Windows/System32/lld-link.com"
+      - "C:/Windows/System32/lld-link.exe"
+      - "C:/Windows/System32/lld-link"
+      - "C:/Windows/lld-link.com"
+      - "C:/Windows/lld-link.exe"
+      - "C:/Windows/lld-link"
+      - "C:/Windows/System32/wbem/lld-link.com"
+      - "C:/Windows/System32/wbem/lld-link.exe"
+      - "C:/Windows/System32/wbem/lld-link"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link"
+      - "C:/Windows/System32/OpenSSH/lld-link.com"
+      - "C:/Windows/System32/OpenSSH/lld-link.exe"
+      - "C:/Windows/System32/OpenSSH/lld-link"
+      - "C:/Program Files/Git/cmd/lld-link.com"
+      - "C:/Program Files/Git/cmd/lld-link.exe"
+      - "C:/Program Files/Git/cmd/lld-link"
+      - "C:/MinGW/bin/lld-link.com"
+      - "C:/MinGW/bin/lld-link.exe"
+      - "C:/MinGW/bin/lld-link"
+      - "C:/Users/mcmif/Downloads/russian_trusted_root_ca.cer/lld-link.com"
+      - "C:/Users/mcmif/Downloads/russian_trusted_root_ca.cer/lld-link.exe"
+      - "C:/Users/mcmif/Downloads/russian_trusted_root_ca.cer/lld-link"
+      - "C:/Program Files/nodejs/lld-link.com"
+      - "C:/Program Files/nodejs/lld-link.exe"
+      - "C:/Program Files/nodejs/lld-link"
+      - "C:/ProgramData/chocolatey/bin/lld-link.com"
+      - "C:/ProgramData/chocolatey/bin/lld-link.exe"
+      - "C:/ProgramData/chocolatey/bin/lld-link"
+      - "C:/Program Files/Docker/Docker/resources/bin/lld-link.com"
+      - "C:/Program Files/Docker/Docker/resources/bin/lld-link.exe"
+      - "C:/Program Files/Docker/Docker/resources/bin/lld-link"
+      - "C:/Program Files/PuTTY/lld-link.com"
+      - "C:/Program Files/PuTTY/lld-link.exe"
+      - "C:/Program Files/PuTTY/lld-link"
+      - "C:/Program Files (x86)/HP/Common/HPDestPlgIn/lld-link.com"
+      - "C:/Program Files (x86)/HP/Common/HPDestPlgIn/lld-link.exe"
+      - "C:/Program Files (x86)/HP/Common/HPDestPlgIn/lld-link"
+      - "C:/Program Files/CMake/bin/lld-link.com"
+      - "C:/Program Files/CMake/bin/lld-link.exe"
+      - "C:/Program Files/CMake/bin/lld-link"
+      - "C:/Users/mcmif/AppData/Local/Programs/Python/Python312/Scripts/lld-link.com"
+      - "C:/Users/mcmif/AppData/Local/Programs/Python/Python312/Scripts/lld-link.exe"
+      - "C:/Users/mcmif/AppData/Local/Programs/Python/Python312/Scripts/lld-link"
+      - "C:/Users/mcmif/AppData/Local/Programs/Python/Python312/lld-link.com"
+      - "C:/Users/mcmif/AppData/Local/Programs/Python/Python312/lld-link.exe"
+      - "C:/Users/mcmif/AppData/Local/Programs/Python/Python312/lld-link"
+      - "C:/Users/mcmif/AppData/Local/Programs/Python/Launcher/lld-link.com"
+      - "C:/Users/mcmif/AppData/Local/Programs/Python/Launcher/lld-link.exe"
+      - "C:/Users/mcmif/AppData/Local/Programs/Python/Launcher/lld-link"
+      - "C:/Users/mcmif/AppData/Local/Microsoft/WindowsApps/lld-link.com"
+      - "C:/Users/mcmif/AppData/Local/Microsoft/WindowsApps/lld-link.exe"
+      - "C:/Users/mcmif/AppData/Local/Microsoft/WindowsApps/lld-link"
+      - "C:/Program Files/JetBrains/PyCharm Community Edition 2024.2/bin/lld-link.com"
+      - "C:/Program Files/JetBrains/PyCharm Community Edition 2024.2/bin/lld-link.exe"
+      - "C:/Program Files/JetBrains/PyCharm Community Edition 2024.2/bin/lld-link"
+      - "C:/Users/mcmif/AppData/Local/Programs/Microsoft VS Code/bin/lld-link.com"
+      - "C:/Users/mcmif/AppData/Local/Programs/Microsoft VS Code/bin/lld-link.exe"
+      - "C:/Users/mcmif/AppData/Local/Programs/Microsoft VS Code/bin/lld-link"
+      - "C:/mysus64/ucrt64/bin/lld-link.com"
+      - "C:/mysus64/ucrt64/bin/lld-link.exe"
+      - "C:/mysus64/ucrt64/bin/lld-link"
+      - "C:/Users/mcmif/AppData/Roaming/npm/lld-link.com"
+      - "C:/Users/mcmif/AppData/Roaming/npm/lld-link.exe"
+      - "C:/Users/mcmif/AppData/Roaming/npm/lld-link"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\VMware\\VMware Workstation\\bin\\"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Python313\\Scripts\\"
+        - "C:\\Python313\\"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\MinGW\\bin"
+        - "C:\\Users\\mcmif\\Downloads\\russian_trusted_root_ca.cer"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Program Files\\PuTTY\\"
+        - "C:\\Program Files (x86)\\HP\\Common\\HPDestPlgIn\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\mcmif\\AppData\\Local\\Programs\\Python\\Python312\\Scripts\\"
+        - "C:\\Users\\mcmif\\AppData\\Local\\Programs\\Python\\Python312\\"
+        - "C:\\Users\\mcmif\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\mcmif\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Program Files\\JetBrains\\PyCharm Community Edition 2024.2\\bin"
+        - "C:\\Users\\mcmif\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\mysus64\\ucrt64\\bin"
+        - "C:\\Users\\mcmif\\AppData\\Roaming\\npm"
+        - "C:\\Program Files (x86)\\HP\\Common\\HPDestPlgIn\\"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_LINKER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "link"
+    candidate_directories:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x64/"
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Python313/Scripts/"
+      - "C:/Python313/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/MinGW/bin/"
+      - "C:/Users/mcmif/Downloads/russian_trusted_root_ca.cer/"
+      - "C:/Program Files/nodejs/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
+      - "C:/Program Files/PuTTY/"
+      - "C:/Program Files (x86)/HP/Common/HPDestPlgIn/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/mcmif/AppData/Local/Programs/Python/Python312/Scripts/"
+      - "C:/Users/mcmif/AppData/Local/Programs/Python/Python312/"
+      - "C:/Users/mcmif/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/mcmif/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Program Files/JetBrains/PyCharm Community Edition 2024.2/bin/"
+      - "C:/Users/mcmif/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/mysus64/ucrt64/bin/"
+      - "C:/Users/mcmif/AppData/Roaming/npm/"
+    searched_directories:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x64/link.com"
+    found: "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x64/link.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\VMware\\VMware Workstation\\bin\\"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Python313\\Scripts\\"
+        - "C:\\Python313\\"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\MinGW\\bin"
+        - "C:\\Users\\mcmif\\Downloads\\russian_trusted_root_ca.cer"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Program Files\\PuTTY\\"
+        - "C:\\Program Files (x86)\\HP\\Common\\HPDestPlgIn\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\mcmif\\AppData\\Local\\Programs\\Python\\Python312\\Scripts\\"
+        - "C:\\Users\\mcmif\\AppData\\Local\\Programs\\Python\\Python312\\"
+        - "C:\\Users\\mcmif\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\mcmif\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Program Files\\JetBrains\\PyCharm Community Edition 2024.2\\bin"
+        - "C:\\Users\\mcmif\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\mysus64\\ucrt64\\bin"
+        - "C:\\Users\\mcmif\\AppData\\Roaming\\npm"
+        - "C:\\Program Files (x86)\\HP\\Common\\HPDestPlgIn\\"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_MT"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "mt"
+    candidate_directories:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x64/"
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Python313/Scripts/"
+      - "C:/Python313/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/MinGW/bin/"
+      - "C:/Users/mcmif/Downloads/russian_trusted_root_ca.cer/"
+      - "C:/Program Files/nodejs/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
+      - "C:/Program Files/PuTTY/"
+      - "C:/Program Files (x86)/HP/Common/HPDestPlgIn/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/mcmif/AppData/Local/Programs/Python/Python312/Scripts/"
+      - "C:/Users/mcmif/AppData/Local/Programs/Python/Python312/"
+      - "C:/Users/mcmif/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/mcmif/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Program Files/JetBrains/PyCharm Community Edition 2024.2/bin/"
+      - "C:/Users/mcmif/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/mysus64/ucrt64/bin/"
+      - "C:/Users/mcmif/AppData/Roaming/npm/"
+    searched_directories:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x64/mt.com"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x64/mt.exe"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x64/mt"
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/mt.com"
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/mt.exe"
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/mt"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/mt.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/mt.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/mt"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/mt.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/mt.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/mt"
+      - "C:/Python313/Scripts/mt.com"
+      - "C:/Python313/Scripts/mt.exe"
+      - "C:/Python313/Scripts/mt"
+      - "C:/Python313/mt.com"
+      - "C:/Python313/mt.exe"
+      - "C:/Python313/mt"
+      - "C:/Windows/System32/mt.com"
+      - "C:/Windows/System32/mt.exe"
+      - "C:/Windows/System32/mt"
+      - "C:/Windows/mt.com"
+      - "C:/Windows/mt.exe"
+      - "C:/Windows/mt"
+      - "C:/Windows/System32/wbem/mt.com"
+      - "C:/Windows/System32/wbem/mt.exe"
+      - "C:/Windows/System32/wbem/mt"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/mt.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/mt.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/mt"
+      - "C:/Windows/System32/OpenSSH/mt.com"
+      - "C:/Windows/System32/OpenSSH/mt.exe"
+      - "C:/Windows/System32/OpenSSH/mt"
+      - "C:/Program Files/Git/cmd/mt.com"
+      - "C:/Program Files/Git/cmd/mt.exe"
+      - "C:/Program Files/Git/cmd/mt"
+      - "C:/MinGW/bin/mt.com"
+      - "C:/MinGW/bin/mt.exe"
+      - "C:/MinGW/bin/mt"
+      - "C:/Users/mcmif/Downloads/russian_trusted_root_ca.cer/mt.com"
+      - "C:/Users/mcmif/Downloads/russian_trusted_root_ca.cer/mt.exe"
+      - "C:/Users/mcmif/Downloads/russian_trusted_root_ca.cer/mt"
+      - "C:/Program Files/nodejs/mt.com"
+      - "C:/Program Files/nodejs/mt.exe"
+      - "C:/Program Files/nodejs/mt"
+      - "C:/ProgramData/chocolatey/bin/mt.com"
+      - "C:/ProgramData/chocolatey/bin/mt.exe"
+      - "C:/ProgramData/chocolatey/bin/mt"
+      - "C:/Program Files/Docker/Docker/resources/bin/mt.com"
+      - "C:/Program Files/Docker/Docker/resources/bin/mt.exe"
+      - "C:/Program Files/Docker/Docker/resources/bin/mt"
+      - "C:/Program Files/PuTTY/mt.com"
+      - "C:/Program Files/PuTTY/mt.exe"
+      - "C:/Program Files/PuTTY/mt"
+      - "C:/Program Files (x86)/HP/Common/HPDestPlgIn/mt.com"
+      - "C:/Program Files (x86)/HP/Common/HPDestPlgIn/mt.exe"
+      - "C:/Program Files (x86)/HP/Common/HPDestPlgIn/mt"
+      - "C:/Program Files/CMake/bin/mt.com"
+      - "C:/Program Files/CMake/bin/mt.exe"
+      - "C:/Program Files/CMake/bin/mt"
+      - "C:/Users/mcmif/AppData/Local/Programs/Python/Python312/Scripts/mt.com"
+      - "C:/Users/mcmif/AppData/Local/Programs/Python/Python312/Scripts/mt.exe"
+      - "C:/Users/mcmif/AppData/Local/Programs/Python/Python312/Scripts/mt"
+      - "C:/Users/mcmif/AppData/Local/Programs/Python/Python312/mt.com"
+      - "C:/Users/mcmif/AppData/Local/Programs/Python/Python312/mt.exe"
+      - "C:/Users/mcmif/AppData/Local/Programs/Python/Python312/mt"
+      - "C:/Users/mcmif/AppData/Local/Programs/Python/Launcher/mt.com"
+      - "C:/Users/mcmif/AppData/Local/Programs/Python/Launcher/mt.exe"
+      - "C:/Users/mcmif/AppData/Local/Programs/Python/Launcher/mt"
+      - "C:/Users/mcmif/AppData/Local/Microsoft/WindowsApps/mt.com"
+      - "C:/Users/mcmif/AppData/Local/Microsoft/WindowsApps/mt.exe"
+      - "C:/Users/mcmif/AppData/Local/Microsoft/WindowsApps/mt"
+      - "C:/Program Files/JetBrains/PyCharm Community Edition 2024.2/bin/mt.com"
+      - "C:/Program Files/JetBrains/PyCharm Community Edition 2024.2/bin/mt.exe"
+      - "C:/Program Files/JetBrains/PyCharm Community Edition 2024.2/bin/mt"
+      - "C:/Users/mcmif/AppData/Local/Programs/Microsoft VS Code/bin/mt.com"
+      - "C:/Users/mcmif/AppData/Local/Programs/Microsoft VS Code/bin/mt.exe"
+      - "C:/Users/mcmif/AppData/Local/Programs/Microsoft VS Code/bin/mt"
+      - "C:/mysus64/ucrt64/bin/mt.com"
+      - "C:/mysus64/ucrt64/bin/mt.exe"
+      - "C:/mysus64/ucrt64/bin/mt"
+      - "C:/Users/mcmif/AppData/Roaming/npm/mt.com"
+      - "C:/Users/mcmif/AppData/Roaming/npm/mt.exe"
+      - "C:/Users/mcmif/AppData/Roaming/npm/mt"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\VMware\\VMware Workstation\\bin\\"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Python313\\Scripts\\"
+        - "C:\\Python313\\"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\MinGW\\bin"
+        - "C:\\Users\\mcmif\\Downloads\\russian_trusted_root_ca.cer"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Program Files\\PuTTY\\"
+        - "C:\\Program Files (x86)\\HP\\Common\\HPDestPlgIn\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\mcmif\\AppData\\Local\\Programs\\Python\\Python312\\Scripts\\"
+        - "C:\\Users\\mcmif\\AppData\\Local\\Programs\\Python\\Python312\\"
+        - "C:\\Users\\mcmif\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\mcmif\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Program Files\\JetBrains\\PyCharm Community Edition 2024.2\\bin"
+        - "C:\\Users\\mcmif\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\mysus64\\ucrt64\\bin"
+        - "C:\\Users\\mcmif\\AppData\\Roaming\\npm"
+        - "C:\\Program Files (x86)\\HP\\Common\\HPDestPlgIn\\"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_AR"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lib"
+    candidate_directories:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x64/"
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Python313/Scripts/"
+      - "C:/Python313/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/MinGW/bin/"
+      - "C:/Users/mcmif/Downloads/russian_trusted_root_ca.cer/"
+      - "C:/Program Files/nodejs/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
+      - "C:/Program Files/PuTTY/"
+      - "C:/Program Files (x86)/HP/Common/HPDestPlgIn/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/mcmif/AppData/Local/Programs/Python/Python312/Scripts/"
+      - "C:/Users/mcmif/AppData/Local/Programs/Python/Python312/"
+      - "C:/Users/mcmif/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/mcmif/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Program Files/JetBrains/PyCharm Community Edition 2024.2/bin/"
+      - "C:/Users/mcmif/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/mysus64/ucrt64/bin/"
+      - "C:/Users/mcmif/AppData/Roaming/npm/"
+    searched_directories:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x64/lib.com"
+    found: "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x64/lib.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\VMware\\VMware Workstation\\bin\\"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Python313\\Scripts\\"
+        - "C:\\Python313\\"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\MinGW\\bin"
+        - "C:\\Users\\mcmif\\Downloads\\russian_trusted_root_ca.cer"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Program Files\\PuTTY\\"
+        - "C:\\Program Files (x86)\\HP\\Common\\HPDestPlgIn\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\mcmif\\AppData\\Local\\Programs\\Python\\Python312\\Scripts\\"
+        - "C:\\Users\\mcmif\\AppData\\Local\\Programs\\Python\\Python312\\"
+        - "C:\\Users\\mcmif\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\mcmif\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Program Files\\JetBrains\\PyCharm Community Edition 2024.2\\bin"
+        - "C:\\Users\\mcmif\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\mysus64\\ucrt64\\bin"
+        - "C:\\Users\\mcmif\\AppData\\Roaming\\npm"
+        - "C:\\Program Files (x86)\\HP\\Common\\HPDestPlgIn\\"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/"
+    found: "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\VMware\\VMware Workstation\\bin\\"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Python313\\Scripts\\"
+        - "C:\\Python313\\"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\MinGW\\bin"
+        - "C:\\Users\\mcmif\\Downloads\\russian_trusted_root_ca.cer"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Program Files\\PuTTY\\"
+        - "C:\\Program Files (x86)\\HP\\Common\\HPDestPlgIn\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\mcmif\\AppData\\Local\\Programs\\Python\\Python312\\Scripts\\"
+        - "C:\\Users\\mcmif\\AppData\\Local\\Programs\\Python\\Python312\\"
+        - "C:\\Users\\mcmif\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\mcmif\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Program Files\\JetBrains\\PyCharm Community Edition 2024.2\\bin"
+        - "C:\\Users\\mcmif\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\mysus64\\ucrt64\\bin"
+        - "C:\\Users\\mcmif\\AppData\\Roaming\\npm"
+        - "C:\\Program Files (x86)\\HP\\Common\\HPDestPlgIn\\"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Microsoft (R) Build Engine версии 16.11.2+f32259642 для .NET Framework
+      (C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+      
+      Сборка начата 08.10.2025 0:17:14.
+      Проект "C:\\Lobovikov\\Programming\\labs\\OOP\\lab2\\build\\CMakeFiles\\4.1.2\\CompilerIdCXX\\CompilerIdCXX.vcxproj" в узле 1 (целевые объекты по умолчанию).
+      PrepareForBuild:
+        Создание каталога "Debug\\".
+        Создание каталога "Debug\\CompilerIdCXX.tlog\\".
+      InitializeBuildStatus:
+        Создание "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+      ClCompile:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc142.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> C:\\Lobovikov\\Programming\\labs\\OOP\\lab2\\build\\CMakeFiles\\4.1.2\\CompilerIdCXX\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Файл "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" удаляется.
+        Обращение к "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
+      Сборка проекта "C:\\Lobovikov\\Programming\\labs\\OOP\\lab2\\build\\CMakeFiles\\4.1.2\\CompilerIdCXX\\CompilerIdCXX.vcxproj" завершена (целевые объекты по умолчанию).
+      
+      Сборка успешно завершена.
+          Предупреждений: 0
+          Ошибок: 0
+      
+      Прошло времени 00:00:00.89
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        C:/Lobovikov/Programming/labs/OOP/lab2/build/CMakeFiles/4.1.2/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:65 (__resolve_tool_path)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:104 (__resolve_linker_path)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lld-link"
+    candidate_directories:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x64/"
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Python313/Scripts/"
+      - "C:/Python313/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/MinGW/bin/"
+      - "C:/Users/mcmif/Downloads/russian_trusted_root_ca.cer/"
+      - "C:/Program Files/nodejs/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
+      - "C:/Program Files/PuTTY/"
+      - "C:/Program Files (x86)/HP/Common/HPDestPlgIn/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/mcmif/AppData/Local/Programs/Python/Python312/Scripts/"
+      - "C:/Users/mcmif/AppData/Local/Programs/Python/Python312/"
+      - "C:/Users/mcmif/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/mcmif/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Program Files/JetBrains/PyCharm Community Edition 2024.2/bin/"
+      - "C:/Users/mcmif/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/mysus64/ucrt64/bin/"
+      - "C:/Users/mcmif/AppData/Roaming/npm/"
+    searched_directories:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x64/lld-link.com"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x64/lld-link.exe"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x64/lld-link"
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/lld-link.com"
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/lld-link.exe"
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/lld-link"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/lld-link.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/lld-link.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/lld-link"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/lld-link.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/lld-link.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/lld-link"
+      - "C:/Python313/Scripts/lld-link.com"
+      - "C:/Python313/Scripts/lld-link.exe"
+      - "C:/Python313/Scripts/lld-link"
+      - "C:/Python313/lld-link.com"
+      - "C:/Python313/lld-link.exe"
+      - "C:/Python313/lld-link"
+      - "C:/Windows/System32/lld-link.com"
+      - "C:/Windows/System32/lld-link.exe"
+      - "C:/Windows/System32/lld-link"
+      - "C:/Windows/lld-link.com"
+      - "C:/Windows/lld-link.exe"
+      - "C:/Windows/lld-link"
+      - "C:/Windows/System32/wbem/lld-link.com"
+      - "C:/Windows/System32/wbem/lld-link.exe"
+      - "C:/Windows/System32/wbem/lld-link"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link"
+      - "C:/Windows/System32/OpenSSH/lld-link.com"
+      - "C:/Windows/System32/OpenSSH/lld-link.exe"
+      - "C:/Windows/System32/OpenSSH/lld-link"
+      - "C:/Program Files/Git/cmd/lld-link.com"
+      - "C:/Program Files/Git/cmd/lld-link.exe"
+      - "C:/Program Files/Git/cmd/lld-link"
+      - "C:/MinGW/bin/lld-link.com"
+      - "C:/MinGW/bin/lld-link.exe"
+      - "C:/MinGW/bin/lld-link"
+      - "C:/Users/mcmif/Downloads/russian_trusted_root_ca.cer/lld-link.com"
+      - "C:/Users/mcmif/Downloads/russian_trusted_root_ca.cer/lld-link.exe"
+      - "C:/Users/mcmif/Downloads/russian_trusted_root_ca.cer/lld-link"
+      - "C:/Program Files/nodejs/lld-link.com"
+      - "C:/Program Files/nodejs/lld-link.exe"
+      - "C:/Program Files/nodejs/lld-link"
+      - "C:/ProgramData/chocolatey/bin/lld-link.com"
+      - "C:/ProgramData/chocolatey/bin/lld-link.exe"
+      - "C:/ProgramData/chocolatey/bin/lld-link"
+      - "C:/Program Files/Docker/Docker/resources/bin/lld-link.com"
+      - "C:/Program Files/Docker/Docker/resources/bin/lld-link.exe"
+      - "C:/Program Files/Docker/Docker/resources/bin/lld-link"
+      - "C:/Program Files/PuTTY/lld-link.com"
+      - "C:/Program Files/PuTTY/lld-link.exe"
+      - "C:/Program Files/PuTTY/lld-link"
+      - "C:/Program Files (x86)/HP/Common/HPDestPlgIn/lld-link.com"
+      - "C:/Program Files (x86)/HP/Common/HPDestPlgIn/lld-link.exe"
+      - "C:/Program Files (x86)/HP/Common/HPDestPlgIn/lld-link"
+      - "C:/Program Files/CMake/bin/lld-link.com"
+      - "C:/Program Files/CMake/bin/lld-link.exe"
+      - "C:/Program Files/CMake/bin/lld-link"
+      - "C:/Users/mcmif/AppData/Local/Programs/Python/Python312/Scripts/lld-link.com"
+      - "C:/Users/mcmif/AppData/Local/Programs/Python/Python312/Scripts/lld-link.exe"
+      - "C:/Users/mcmif/AppData/Local/Programs/Python/Python312/Scripts/lld-link"
+      - "C:/Users/mcmif/AppData/Local/Programs/Python/Python312/lld-link.com"
+      - "C:/Users/mcmif/AppData/Local/Programs/Python/Python312/lld-link.exe"
+      - "C:/Users/mcmif/AppData/Local/Programs/Python/Python312/lld-link"
+      - "C:/Users/mcmif/AppData/Local/Programs/Python/Launcher/lld-link.com"
+      - "C:/Users/mcmif/AppData/Local/Programs/Python/Launcher/lld-link.exe"
+      - "C:/Users/mcmif/AppData/Local/Programs/Python/Launcher/lld-link"
+      - "C:/Users/mcmif/AppData/Local/Microsoft/WindowsApps/lld-link.com"
+      - "C:/Users/mcmif/AppData/Local/Microsoft/WindowsApps/lld-link.exe"
+      - "C:/Users/mcmif/AppData/Local/Microsoft/WindowsApps/lld-link"
+      - "C:/Program Files/JetBrains/PyCharm Community Edition 2024.2/bin/lld-link.com"
+      - "C:/Program Files/JetBrains/PyCharm Community Edition 2024.2/bin/lld-link.exe"
+      - "C:/Program Files/JetBrains/PyCharm Community Edition 2024.2/bin/lld-link"
+      - "C:/Users/mcmif/AppData/Local/Programs/Microsoft VS Code/bin/lld-link.com"
+      - "C:/Users/mcmif/AppData/Local/Programs/Microsoft VS Code/bin/lld-link.exe"
+      - "C:/Users/mcmif/AppData/Local/Programs/Microsoft VS Code/bin/lld-link"
+      - "C:/mysus64/ucrt64/bin/lld-link.com"
+      - "C:/mysus64/ucrt64/bin/lld-link.exe"
+      - "C:/mysus64/ucrt64/bin/lld-link"
+      - "C:/Users/mcmif/AppData/Roaming/npm/lld-link.com"
+      - "C:/Users/mcmif/AppData/Roaming/npm/lld-link.exe"
+      - "C:/Users/mcmif/AppData/Roaming/npm/lld-link"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\VMware\\VMware Workstation\\bin\\"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Python313\\Scripts\\"
+        - "C:\\Python313\\"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\MinGW\\bin"
+        - "C:\\Users\\mcmif\\Downloads\\russian_trusted_root_ca.cer"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Program Files\\PuTTY\\"
+        - "C:\\Program Files (x86)\\HP\\Common\\HPDestPlgIn\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\mcmif\\AppData\\Local\\Programs\\Python\\Python312\\Scripts\\"
+        - "C:\\Users\\mcmif\\AppData\\Local\\Programs\\Python\\Python312\\"
+        - "C:\\Users\\mcmif\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\mcmif\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Program Files\\JetBrains\\PyCharm Community Edition 2024.2\\bin"
+        - "C:\\Users\\mcmif\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\mysus64\\ucrt64\\bin"
+        - "C:\\Users\\mcmif\\AppData\\Roaming\\npm"
+        - "C:\\Program Files (x86)\\HP\\Common\\HPDestPlgIn\\"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineRCCompiler.cmake:40 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/Platform/Windows-MSVC.cmake:574 (enable_language)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/Platform/Windows-MSVC.cmake:547 (__windows_compiler_msvc_enable_rc)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/Platform/Windows-MSVC-C.cmake:5 (__windows_compiler_msvc)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeCInformation.cmake:48 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_RC_COMPILER"
+    description: "RC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "rc"
+    candidate_directories:
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Python313/Scripts/"
+      - "C:/Python313/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/MinGW/bin/"
+      - "C:/Users/mcmif/Downloads/russian_trusted_root_ca.cer/"
+      - "C:/Program Files/nodejs/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
+      - "C:/Program Files/PuTTY/"
+      - "C:/Program Files (x86)/HP/Common/HPDestPlgIn/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/mcmif/AppData/Local/Programs/Python/Python312/Scripts/"
+      - "C:/Users/mcmif/AppData/Local/Programs/Python/Python312/"
+      - "C:/Users/mcmif/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/mcmif/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Program Files/JetBrains/PyCharm Community Edition 2024.2/bin/"
+      - "C:/Users/mcmif/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/mysus64/ucrt64/bin/"
+      - "C:/Users/mcmif/AppData/Roaming/npm/"
+      - "C:/Program Files/bin/"
+      - "C:/Program Files/sbin/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/bin/"
+      - "C:/Program Files (x86)/sbin/"
+      - "C:/Program Files (x86)/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/CMake/sbin/"
+      - "C:/Program Files/CMake/"
+      - "C:/Program Files/lab2/bin/"
+      - "C:/Program Files/lab2/sbin/"
+      - "C:/Program Files/lab2/"
+    searched_directories:
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/rc.com"
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/rc.exe"
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/rc"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/rc.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/rc.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/rc"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/rc.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/rc.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/rc"
+      - "C:/Python313/Scripts/rc.com"
+      - "C:/Python313/Scripts/rc.exe"
+      - "C:/Python313/Scripts/rc"
+      - "C:/Python313/rc.com"
+      - "C:/Python313/rc.exe"
+      - "C:/Python313/rc"
+      - "C:/Windows/System32/rc.com"
+      - "C:/Windows/System32/rc.exe"
+      - "C:/Windows/System32/rc"
+      - "C:/Windows/rc.com"
+      - "C:/Windows/rc.exe"
+      - "C:/Windows/rc"
+      - "C:/Windows/System32/wbem/rc.com"
+      - "C:/Windows/System32/wbem/rc.exe"
+      - "C:/Windows/System32/wbem/rc"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/rc.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/rc.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/rc"
+      - "C:/Windows/System32/OpenSSH/rc.com"
+      - "C:/Windows/System32/OpenSSH/rc.exe"
+      - "C:/Windows/System32/OpenSSH/rc"
+      - "C:/Program Files/Git/cmd/rc.com"
+      - "C:/Program Files/Git/cmd/rc.exe"
+      - "C:/Program Files/Git/cmd/rc"
+      - "C:/MinGW/bin/rc.com"
+      - "C:/MinGW/bin/rc.exe"
+      - "C:/MinGW/bin/rc"
+      - "C:/Users/mcmif/Downloads/russian_trusted_root_ca.cer/rc.com"
+      - "C:/Users/mcmif/Downloads/russian_trusted_root_ca.cer/rc.exe"
+      - "C:/Users/mcmif/Downloads/russian_trusted_root_ca.cer/rc"
+      - "C:/Program Files/nodejs/rc.com"
+      - "C:/Program Files/nodejs/rc.exe"
+      - "C:/Program Files/nodejs/rc"
+      - "C:/ProgramData/chocolatey/bin/rc.com"
+      - "C:/ProgramData/chocolatey/bin/rc.exe"
+      - "C:/ProgramData/chocolatey/bin/rc"
+      - "C:/Program Files/Docker/Docker/resources/bin/rc.com"
+      - "C:/Program Files/Docker/Docker/resources/bin/rc.exe"
+      - "C:/Program Files/Docker/Docker/resources/bin/rc"
+      - "C:/Program Files/PuTTY/rc.com"
+      - "C:/Program Files/PuTTY/rc.exe"
+      - "C:/Program Files/PuTTY/rc"
+      - "C:/Program Files (x86)/HP/Common/HPDestPlgIn/rc.com"
+      - "C:/Program Files (x86)/HP/Common/HPDestPlgIn/rc.exe"
+      - "C:/Program Files (x86)/HP/Common/HPDestPlgIn/rc"
+      - "C:/Program Files/CMake/bin/rc.com"
+      - "C:/Program Files/CMake/bin/rc.exe"
+      - "C:/Program Files/CMake/bin/rc"
+      - "C:/Users/mcmif/AppData/Local/Programs/Python/Python312/Scripts/rc.com"
+      - "C:/Users/mcmif/AppData/Local/Programs/Python/Python312/Scripts/rc.exe"
+      - "C:/Users/mcmif/AppData/Local/Programs/Python/Python312/Scripts/rc"
+      - "C:/Users/mcmif/AppData/Local/Programs/Python/Python312/rc.com"
+      - "C:/Users/mcmif/AppData/Local/Programs/Python/Python312/rc.exe"
+      - "C:/Users/mcmif/AppData/Local/Programs/Python/Python312/rc"
+      - "C:/Users/mcmif/AppData/Local/Programs/Python/Launcher/rc.com"
+      - "C:/Users/mcmif/AppData/Local/Programs/Python/Launcher/rc.exe"
+      - "C:/Users/mcmif/AppData/Local/Programs/Python/Launcher/rc"
+      - "C:/Users/mcmif/AppData/Local/Microsoft/WindowsApps/rc.com"
+      - "C:/Users/mcmif/AppData/Local/Microsoft/WindowsApps/rc.exe"
+      - "C:/Users/mcmif/AppData/Local/Microsoft/WindowsApps/rc"
+      - "C:/Program Files/JetBrains/PyCharm Community Edition 2024.2/bin/rc.com"
+      - "C:/Program Files/JetBrains/PyCharm Community Edition 2024.2/bin/rc.exe"
+      - "C:/Program Files/JetBrains/PyCharm Community Edition 2024.2/bin/rc"
+      - "C:/Users/mcmif/AppData/Local/Programs/Microsoft VS Code/bin/rc.com"
+      - "C:/Users/mcmif/AppData/Local/Programs/Microsoft VS Code/bin/rc.exe"
+      - "C:/Users/mcmif/AppData/Local/Programs/Microsoft VS Code/bin/rc"
+      - "C:/mysus64/ucrt64/bin/rc.com"
+      - "C:/mysus64/ucrt64/bin/rc.exe"
+      - "C:/mysus64/ucrt64/bin/rc"
+      - "C:/Users/mcmif/AppData/Roaming/npm/rc.com"
+      - "C:/Users/mcmif/AppData/Roaming/npm/rc.exe"
+      - "C:/Users/mcmif/AppData/Roaming/npm/rc"
+      - "C:/Program Files/bin/rc.com"
+      - "C:/Program Files/bin/rc.exe"
+      - "C:/Program Files/bin/rc"
+      - "C:/Program Files/sbin/rc.com"
+      - "C:/Program Files/sbin/rc.exe"
+      - "C:/Program Files/sbin/rc"
+      - "C:/Program Files/rc.com"
+      - "C:/Program Files/rc.exe"
+      - "C:/Program Files/rc"
+      - "C:/Program Files (x86)/bin/rc.com"
+      - "C:/Program Files (x86)/bin/rc.exe"
+      - "C:/Program Files (x86)/bin/rc"
+      - "C:/Program Files (x86)/sbin/rc.com"
+      - "C:/Program Files (x86)/sbin/rc.exe"
+      - "C:/Program Files (x86)/sbin/rc"
+      - "C:/Program Files (x86)/rc.com"
+      - "C:/Program Files (x86)/rc.exe"
+      - "C:/Program Files (x86)/rc"
+      - "C:/Program Files/CMake/bin/rc.com"
+      - "C:/Program Files/CMake/bin/rc.exe"
+      - "C:/Program Files/CMake/bin/rc"
+      - "C:/Program Files/CMake/sbin/rc.com"
+      - "C:/Program Files/CMake/sbin/rc.exe"
+      - "C:/Program Files/CMake/sbin/rc"
+      - "C:/Program Files/CMake/rc.com"
+      - "C:/Program Files/CMake/rc.exe"
+      - "C:/Program Files/CMake/rc"
+      - "C:/Program Files/lab2/bin/rc.com"
+      - "C:/Program Files/lab2/bin/rc.exe"
+      - "C:/Program Files/lab2/bin/rc"
+      - "C:/Program Files/lab2/sbin/rc.com"
+      - "C:/Program Files/lab2/sbin/rc.exe"
+      - "C:/Program Files/lab2/sbin/rc"
+      - "C:/Program Files/lab2/rc.com"
+      - "C:/Program Files/lab2/rc.exe"
+      - "C:/Program Files/lab2/rc"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\VMware\\VMware Workstation\\bin\\"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Python313\\Scripts\\"
+        - "C:\\Python313\\"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\MinGW\\bin"
+        - "C:\\Users\\mcmif\\Downloads\\russian_trusted_root_ca.cer"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Program Files\\PuTTY\\"
+        - "C:\\Program Files (x86)\\HP\\Common\\HPDestPlgIn\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\mcmif\\AppData\\Local\\Programs\\Python\\Python312\\Scripts\\"
+        - "C:\\Users\\mcmif\\AppData\\Local\\Programs\\Python\\Python312\\"
+        - "C:\\Users\\mcmif\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\mcmif\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Program Files\\JetBrains\\PyCharm Community Edition 2024.2\\bin"
+        - "C:\\Users\\mcmif\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\mysus64\\ucrt64\\bin"
+        - "C:\\Users\\mcmif\\AppData\\Roaming\\npm"
+        - "C:\\Program Files (x86)\\HP\\Common\\HPDestPlgIn\\"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files/lab2"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files/lab2"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Lobovikov/Programming/labs/OOP/lab2/build/CMakeFiles/CMakeScratch/TryCompile-340318"
+      binary: "C:/Lobovikov/Programming/labs/OOP/lab2/build/CMakeFiles/CMakeScratch/TryCompile-340318"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Lobovikov/Programming/labs/OOP/lab2/build/CMakeFiles/CMakeScratch/TryCompile-340318'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/MSBuild.exe" cmTC_716f4.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        Microsoft (R) Build Engine версии 16.11.2+f32259642 для .NET Framework
+        (C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+        
+        Сборка начата 08.10.2025 0:17:15.
+        Проект "C:\\Lobovikov\\Programming\\labs\\OOP\\lab2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-340318\\cmTC_716f4.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        PrepareForBuild:
+          Создание каталога "cmTC_716f4.dir\\Debug\\".
+          Создание каталога "C:\\Lobovikov\\Programming\\labs\\OOP\\lab2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-340318\\Debug\\".
+          Создание каталога "cmTC_716f4.dir\\Debug\\cmTC_716f4.tlog\\".
+        InitializeBuildStatus:
+          Создание "cmTC_716f4.dir\\Debug\\cmTC_716f4.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_716f4.dir\\Debug\\\\" /Fd"cmTC_716f4.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.1\\Modules\\CMakeCCompilerABI.c"
+          Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.29.30159 для x64
+          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+          CMakeCCompilerABI.c
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_716f4.dir\\Debug\\\\" /Fd"cmTC_716f4.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.1\\Modules\\CMakeCCompilerABI.c"
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Lobovikov\\Programming\\labs\\OOP\\lab2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-340318\\Debug\\cmTC_716f4.exe" /INCREMENTAL /ILK:"cmTC_716f4.dir\\Debug\\cmTC_716f4.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Lobovikov/Programming/labs/OOP/lab2/build/CMakeFiles/CMakeScratch/TryCompile-340318/Debug/cmTC_716f4.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Lobovikov/Programming/labs/OOP/lab2/build/CMakeFiles/CMakeScratch/TryCompile-340318/Debug/cmTC_716f4.lib" /MACHINE:X64  /machine:x64 cmTC_716f4.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_716f4.vcxproj -> C:\\Lobovikov\\Programming\\labs\\OOP\\lab2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-340318\\Debug\\cmTC_716f4.exe
+        FinalizeBuildStatus:
+          Файл "cmTC_716f4.dir\\Debug\\cmTC_716f4.tlog\\unsuccessfulbuild" удаляется.
+          Обращение к "cmTC_716f4.dir\\Debug\\cmTC_716f4.tlog\\cmTC_716f4.lastbuildstate".
+        Сборка проекта "C:\\Lobovikov\\Programming\\labs\\OOP\\lab2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-340318\\cmTC_716f4.vcxproj" завершена (целевые объекты по умолчанию).
+        
+        Сборка успешно завершена.
+            Предупреждений: 0
+            Ошибок: 0
+        
+        Прошло времени 00:00:00.95
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'C': C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/VC/Tools/MSVC/14.29.30133/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/Internal/CMakeDetermineLinkerId.cmake:36 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the C compiler's linker: "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/VC/Tools/MSVC/14.29.30133/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.29.30159.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/Lobovikov/Programming/labs/OOP/lab2/build/CMakeFiles/CMakeScratch/TryCompile-wd72m2"
+      binary: "C:/Lobovikov/Programming/labs/OOP/lab2/build/CMakeFiles/CMakeScratch/TryCompile-wd72m2"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Lobovikov/Programming/labs/OOP/lab2/build/CMakeFiles/CMakeScratch/TryCompile-wd72m2'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/MSBuild.exe" cmTC_e6c38.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        Microsoft (R) Build Engine версии 16.11.2+f32259642 для .NET Framework
+        (C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+        
+        Сборка начата 08.10.2025 0:17:17.
+        Проект "C:\\Lobovikov\\Programming\\labs\\OOP\\lab2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wd72m2\\cmTC_e6c38.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        PrepareForBuild:
+          Создание каталога "cmTC_e6c38.dir\\Debug\\".
+          Создание каталога "C:\\Lobovikov\\Programming\\labs\\OOP\\lab2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wd72m2\\Debug\\".
+          Создание каталога "cmTC_e6c38.dir\\Debug\\cmTC_e6c38.tlog\\".
+        InitializeBuildStatus:
+          Создание "cmTC_e6c38.dir\\Debug\\cmTC_e6c38.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /GR /Fo"cmTC_e6c38.dir\\Debug\\\\" /Fd"cmTC_e6c38.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.1\\Modules\\CMakeCXXCompilerABI.cpp"
+          Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.29.30159 для x64
+          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+          CMakeCXXCompilerABI.cpp
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /GR /Fo"cmTC_e6c38.dir\\Debug\\\\" /Fd"cmTC_e6c38.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.1\\Modules\\CMakeCXXCompilerABI.cpp"
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Lobovikov\\Programming\\labs\\OOP\\lab2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wd72m2\\Debug\\cmTC_e6c38.exe" /INCREMENTAL /ILK:"cmTC_e6c38.dir\\Debug\\cmTC_e6c38.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Lobovikov/Programming/labs/OOP/lab2/build/CMakeFiles/CMakeScratch/TryCompile-wd72m2/Debug/cmTC_e6c38.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Lobovikov/Programming/labs/OOP/lab2/build/CMakeFiles/CMakeScratch/TryCompile-wd72m2/Debug/cmTC_e6c38.lib" /MACHINE:X64  /machine:x64 cmTC_e6c38.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_e6c38.vcxproj -> C:\\Lobovikov\\Programming\\labs\\OOP\\lab2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wd72m2\\Debug\\cmTC_e6c38.exe
+        FinalizeBuildStatus:
+          Файл "cmTC_e6c38.dir\\Debug\\cmTC_e6c38.tlog\\unsuccessfulbuild" удаляется.
+          Обращение к "cmTC_e6c38.dir\\Debug\\cmTC_e6c38.tlog\\cmTC_e6c38.lastbuildstate".
+        Сборка проекта "C:\\Lobovikov\\Programming\\labs\\OOP\\lab2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wd72m2\\cmTC_e6c38.vcxproj" завершена (целевые объекты по умолчанию).
+        
+        Сборка успешно завершена.
+            Предупреждений: 0
+            Ошибок: 0
+        
+        Прошло времени 00:00:01.16
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'CXX': C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/VC/Tools/MSVC/14.29.30133/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/Internal/CMakeDetermineLinkerId.cmake:36 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the CXX compiler's linker: "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/VC/Tools/MSVC/14.29.30133/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.29.30159.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindGit.cmake:86 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FetchContent.cmake:1874 (find_package)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FetchContent.cmake:1609 (__FetchContent_populateSubbuild)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FetchContent.cmake:2145:EVAL:2 (__FetchContent_doPopulation)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FetchContent.cmake:2145 (cmake_language)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FetchContent.cmake:2384 (__FetchContent_Populate)"
+      - "CMakeLists.txt:22 (FetchContent_MakeAvailable)"
+    mode: "program"
+    variable: "GIT_EXECUTABLE"
+    description: "Git command line client"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "git.cmd"
+      - "git"
+    candidate_directories:
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Python313/Scripts/"
+      - "C:/Python313/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/MinGW/bin/"
+      - "C:/Users/mcmif/Downloads/russian_trusted_root_ca.cer/"
+      - "C:/Program Files/nodejs/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
+      - "C:/Program Files/PuTTY/"
+      - "C:/Program Files (x86)/HP/Common/HPDestPlgIn/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/mcmif/AppData/Local/Programs/Python/Python312/Scripts/"
+      - "C:/Users/mcmif/AppData/Local/Programs/Python/Python312/"
+      - "C:/Users/mcmif/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/mcmif/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Program Files/JetBrains/PyCharm Community Edition 2024.2/bin/"
+      - "C:/Users/mcmif/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/mysus64/ucrt64/bin/"
+      - "C:/Users/mcmif/AppData/Roaming/npm/"
+      - "C:/Program Files/bin/"
+      - "C:/Program Files/sbin/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/bin/"
+      - "C:/Program Files (x86)/sbin/"
+      - "C:/Program Files (x86)/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/CMake/sbin/"
+      - "C:/Program Files/CMake/"
+      - "C:/Program Files/lab2/bin/"
+      - "C:/Program Files/lab2/sbin/"
+      - "C:/Program Files/lab2/"
+      - "C:/Users/mcmif/AppData/Local/Atlassian/SourceTree/git_local/bin/"
+    searched_directories:
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/git.cmd.com"
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/git.cmd.exe"
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/git.cmd"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/git.cmd.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/git.cmd.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/git.cmd"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/git.cmd.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/git.cmd.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/git.cmd"
+      - "C:/Python313/Scripts/git.cmd.com"
+      - "C:/Python313/Scripts/git.cmd.exe"
+      - "C:/Python313/Scripts/git.cmd"
+      - "C:/Python313/git.cmd.com"
+      - "C:/Python313/git.cmd.exe"
+      - "C:/Python313/git.cmd"
+      - "C:/Windows/System32/git.cmd.com"
+      - "C:/Windows/System32/git.cmd.exe"
+      - "C:/Windows/System32/git.cmd"
+      - "C:/Windows/git.cmd.com"
+      - "C:/Windows/git.cmd.exe"
+      - "C:/Windows/git.cmd"
+      - "C:/Windows/System32/wbem/git.cmd.com"
+      - "C:/Windows/System32/wbem/git.cmd.exe"
+      - "C:/Windows/System32/wbem/git.cmd"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/git.cmd.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/git.cmd.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/git.cmd"
+      - "C:/Windows/System32/OpenSSH/git.cmd.com"
+      - "C:/Windows/System32/OpenSSH/git.cmd.exe"
+      - "C:/Windows/System32/OpenSSH/git.cmd"
+      - "C:/Program Files/Git/cmd/git.cmd.com"
+      - "C:/Program Files/Git/cmd/git.cmd.exe"
+      - "C:/Program Files/Git/cmd/git.cmd"
+      - "C:/MinGW/bin/git.cmd.com"
+      - "C:/MinGW/bin/git.cmd.exe"
+      - "C:/MinGW/bin/git.cmd"
+      - "C:/Users/mcmif/Downloads/russian_trusted_root_ca.cer/git.cmd.com"
+      - "C:/Users/mcmif/Downloads/russian_trusted_root_ca.cer/git.cmd.exe"
+      - "C:/Users/mcmif/Downloads/russian_trusted_root_ca.cer/git.cmd"
+      - "C:/Program Files/nodejs/git.cmd.com"
+      - "C:/Program Files/nodejs/git.cmd.exe"
+      - "C:/Program Files/nodejs/git.cmd"
+      - "C:/ProgramData/chocolatey/bin/git.cmd.com"
+      - "C:/ProgramData/chocolatey/bin/git.cmd.exe"
+      - "C:/ProgramData/chocolatey/bin/git.cmd"
+      - "C:/Program Files/Docker/Docker/resources/bin/git.cmd.com"
+      - "C:/Program Files/Docker/Docker/resources/bin/git.cmd.exe"
+      - "C:/Program Files/Docker/Docker/resources/bin/git.cmd"
+      - "C:/Program Files/PuTTY/git.cmd.com"
+      - "C:/Program Files/PuTTY/git.cmd.exe"
+      - "C:/Program Files/PuTTY/git.cmd"
+      - "C:/Program Files (x86)/HP/Common/HPDestPlgIn/git.cmd.com"
+      - "C:/Program Files (x86)/HP/Common/HPDestPlgIn/git.cmd.exe"
+      - "C:/Program Files (x86)/HP/Common/HPDestPlgIn/git.cmd"
+      - "C:/Program Files/CMake/bin/git.cmd.com"
+      - "C:/Program Files/CMake/bin/git.cmd.exe"
+      - "C:/Program Files/CMake/bin/git.cmd"
+      - "C:/Users/mcmif/AppData/Local/Programs/Python/Python312/Scripts/git.cmd.com"
+      - "C:/Users/mcmif/AppData/Local/Programs/Python/Python312/Scripts/git.cmd.exe"
+      - "C:/Users/mcmif/AppData/Local/Programs/Python/Python312/Scripts/git.cmd"
+      - "C:/Users/mcmif/AppData/Local/Programs/Python/Python312/git.cmd.com"
+      - "C:/Users/mcmif/AppData/Local/Programs/Python/Python312/git.cmd.exe"
+      - "C:/Users/mcmif/AppData/Local/Programs/Python/Python312/git.cmd"
+      - "C:/Users/mcmif/AppData/Local/Programs/Python/Launcher/git.cmd.com"
+      - "C:/Users/mcmif/AppData/Local/Programs/Python/Launcher/git.cmd.exe"
+      - "C:/Users/mcmif/AppData/Local/Programs/Python/Launcher/git.cmd"
+      - "C:/Users/mcmif/AppData/Local/Microsoft/WindowsApps/git.cmd.com"
+      - "C:/Users/mcmif/AppData/Local/Microsoft/WindowsApps/git.cmd.exe"
+      - "C:/Users/mcmif/AppData/Local/Microsoft/WindowsApps/git.cmd"
+      - "C:/Program Files/JetBrains/PyCharm Community Edition 2024.2/bin/git.cmd.com"
+      - "C:/Program Files/JetBrains/PyCharm Community Edition 2024.2/bin/git.cmd.exe"
+      - "C:/Program Files/JetBrains/PyCharm Community Edition 2024.2/bin/git.cmd"
+      - "C:/Users/mcmif/AppData/Local/Programs/Microsoft VS Code/bin/git.cmd.com"
+      - "C:/Users/mcmif/AppData/Local/Programs/Microsoft VS Code/bin/git.cmd.exe"
+      - "C:/Users/mcmif/AppData/Local/Programs/Microsoft VS Code/bin/git.cmd"
+      - "C:/mysus64/ucrt64/bin/git.cmd.com"
+      - "C:/mysus64/ucrt64/bin/git.cmd.exe"
+      - "C:/mysus64/ucrt64/bin/git.cmd"
+      - "C:/Users/mcmif/AppData/Roaming/npm/git.cmd.com"
+      - "C:/Users/mcmif/AppData/Roaming/npm/git.cmd.exe"
+      - "C:/Users/mcmif/AppData/Roaming/npm/git.cmd"
+      - "C:/Program Files/bin/git.cmd.com"
+      - "C:/Program Files/bin/git.cmd.exe"
+      - "C:/Program Files/bin/git.cmd"
+      - "C:/Program Files/sbin/git.cmd.com"
+      - "C:/Program Files/sbin/git.cmd.exe"
+      - "C:/Program Files/sbin/git.cmd"
+      - "C:/Program Files/git.cmd.com"
+      - "C:/Program Files/git.cmd.exe"
+      - "C:/Program Files/git.cmd"
+      - "C:/Program Files (x86)/bin/git.cmd.com"
+      - "C:/Program Files (x86)/bin/git.cmd.exe"
+      - "C:/Program Files (x86)/bin/git.cmd"
+      - "C:/Program Files (x86)/sbin/git.cmd.com"
+      - "C:/Program Files (x86)/sbin/git.cmd.exe"
+      - "C:/Program Files (x86)/sbin/git.cmd"
+      - "C:/Program Files (x86)/git.cmd.com"
+      - "C:/Program Files (x86)/git.cmd.exe"
+      - "C:/Program Files (x86)/git.cmd"
+      - "C:/Program Files/CMake/bin/git.cmd.com"
+      - "C:/Program Files/CMake/bin/git.cmd.exe"
+      - "C:/Program Files/CMake/bin/git.cmd"
+      - "C:/Program Files/CMake/sbin/git.cmd.com"
+      - "C:/Program Files/CMake/sbin/git.cmd.exe"
+      - "C:/Program Files/CMake/sbin/git.cmd"
+      - "C:/Program Files/CMake/git.cmd.com"
+      - "C:/Program Files/CMake/git.cmd.exe"
+      - "C:/Program Files/CMake/git.cmd"
+      - "C:/Program Files/lab2/bin/git.cmd.com"
+      - "C:/Program Files/lab2/bin/git.cmd.exe"
+      - "C:/Program Files/lab2/bin/git.cmd"
+      - "C:/Program Files/lab2/sbin/git.cmd.com"
+      - "C:/Program Files/lab2/sbin/git.cmd.exe"
+      - "C:/Program Files/lab2/sbin/git.cmd"
+      - "C:/Program Files/lab2/git.cmd.com"
+      - "C:/Program Files/lab2/git.cmd.exe"
+      - "C:/Program Files/lab2/git.cmd"
+      - "C:/Users/mcmif/AppData/Local/Atlassian/SourceTree/git_local/bin/git.cmd.com"
+      - "C:/Users/mcmif/AppData/Local/Atlassian/SourceTree/git_local/bin/git.cmd.exe"
+      - "C:/Users/mcmif/AppData/Local/Atlassian/SourceTree/git_local/bin/git.cmd"
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/git.com"
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/git.exe"
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/git"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/git.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/git.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/git"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/git.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/git.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/git"
+      - "C:/Python313/Scripts/git.com"
+      - "C:/Python313/Scripts/git.exe"
+      - "C:/Python313/Scripts/git"
+      - "C:/Python313/git.com"
+      - "C:/Python313/git.exe"
+      - "C:/Python313/git"
+      - "C:/Windows/System32/git.com"
+      - "C:/Windows/System32/git.exe"
+      - "C:/Windows/System32/git"
+      - "C:/Windows/git.com"
+      - "C:/Windows/git.exe"
+      - "C:/Windows/git"
+      - "C:/Windows/System32/wbem/git.com"
+      - "C:/Windows/System32/wbem/git.exe"
+      - "C:/Windows/System32/wbem/git"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/git.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/git.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/git"
+      - "C:/Windows/System32/OpenSSH/git.com"
+      - "C:/Windows/System32/OpenSSH/git.exe"
+      - "C:/Windows/System32/OpenSSH/git"
+      - "C:/Program Files/Git/cmd/git.com"
+    found: "C:/Program Files/Git/cmd/git.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\VMware\\VMware Workstation\\bin\\"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Python313\\Scripts\\"
+        - "C:\\Python313\\"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\MinGW\\bin"
+        - "C:\\Users\\mcmif\\Downloads\\russian_trusted_root_ca.cer"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Program Files\\PuTTY\\"
+        - "C:\\Program Files (x86)\\HP\\Common\\HPDestPlgIn\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\mcmif\\AppData\\Local\\Programs\\Python\\Python312\\Scripts\\"
+        - "C:\\Users\\mcmif\\AppData\\Local\\Programs\\Python\\Python312\\"
+        - "C:\\Users\\mcmif\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\mcmif\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Program Files\\JetBrains\\PyCharm Community Edition 2024.2\\bin"
+        - "C:\\Users\\mcmif\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\mysus64\\ucrt64\\bin"
+        - "C:\\Users\\mcmif\\AppData\\Roaming\\npm"
+        - "C:\\Program Files (x86)\\HP\\Common\\HPDestPlgIn\\"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files/lab2"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files/lab2"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CheckCSourceCompiles.cmake:103 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindThreads.cmake:97 (check_c_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "build/_deps/googletest-src/googletest/cmake/internal_utils.cmake:66 (find_package)"
+      - "build/_deps/googletest-src/googletest/CMakeLists.txt:83 (config_compiler_and_linker)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "C:/Lobovikov/Programming/labs/OOP/lab2/build/CMakeFiles/CMakeScratch/TryCompile-s7qpxj"
+      binary: "C:/Lobovikov/Programming/labs/OOP/lab2/build/CMakeFiles/CMakeScratch/TryCompile-s7qpxj"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreadedDLL"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Lobovikov/Programming/labs/OOP/lab2/build/CMakeFiles/CMakeScratch/TryCompile-s7qpxj'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/MSBuild.exe" cmTC_9bff7.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        Microsoft (R) Build Engine версии 16.11.2+f32259642 для .NET Framework
+        (C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+        
+        Сборка начата 08.10.2025 0:17:32.
+        Проект "C:\\Lobovikov\\Programming\\labs\\OOP\\lab2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-s7qpxj\\cmTC_9bff7.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        PrepareForBuild:
+          Создание каталога "cmTC_9bff7.dir\\Debug\\".
+          Создание каталога "C:\\Lobovikov\\Programming\\labs\\OOP\\lab2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-s7qpxj\\Debug\\".
+          Создание каталога "cmTC_9bff7.dir\\Debug\\cmTC_9bff7.tlog\\".
+        InitializeBuildStatus:
+          Создание "cmTC_9bff7.dir\\Debug\\cmTC_9bff7.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_9bff7.dir\\Debug\\\\" /Fd"cmTC_9bff7.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Lobovikov\\Programming\\labs\\OOP\\lab2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-s7qpxj\\src.c"
+          Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.29.30159 для x64
+          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+          src.c
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_9bff7.dir\\Debug\\\\" /Fd"cmTC_9bff7.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Lobovikov\\Programming\\labs\\OOP\\lab2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-s7qpxj\\src.c"
+        C:\\Lobovikov\\Programming\\labs\\OOP\\lab2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-s7qpxj\\src.c(1,10): fatal error C1083: Не удается открыть файл включение: pthread.h: No such file or directory, [C:\\Lobovikov\\Programming\\labs\\OOP\\lab2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-s7qpxj\\cmTC_9bff7.vcxproj]
+        Сборка проекта "C:\\Lobovikov\\Programming\\labs\\OOP\\lab2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-s7qpxj\\cmTC_9bff7.vcxproj" завершена (целевые объекты по умолчанию) с ошибкой.
+        
+        Ошибка сборки.
+        
+        "C:\\Lobovikov\\Programming\\labs\\OOP\\lab2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-s7qpxj\\cmTC_9bff7.vcxproj" (целевой объект по умолчанию) (1) ->
+        (Целевой объект ClCompile) -> 
+          C:\\Lobovikov\\Programming\\labs\\OOP\\lab2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-s7qpxj\\src.c(1,10): fatal error C1083: Не удается открыть файл включение: pthread.h: No such file or directory, [C:\\Lobovikov\\Programming\\labs\\OOP\\lab2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-s7qpxj\\cmTC_9bff7.vcxproj]
+        
+            Предупреждений: 0
+            Ошибок: 1
+        
+        Прошло времени 00:00:00.43
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CheckLibraryExists.cmake:154 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindThreads.cmake:112 (check_library_exists)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindThreads.cmake:175 (_threads_check_lib)"
+      - "build/_deps/googletest-src/googletest/cmake/internal_utils.cmake:66 (find_package)"
+      - "build/_deps/googletest-src/googletest/CMakeLists.txt:83 (config_compiler_and_linker)"
+    checks:
+      - "Looking for pthread_create in pthreads"
+    directories:
+      source: "C:/Lobovikov/Programming/labs/OOP/lab2/build/CMakeFiles/CMakeScratch/TryCompile-jlar9p"
+      binary: "C:/Lobovikov/Programming/labs/OOP/lab2/build/CMakeFiles/CMakeScratch/TryCompile-jlar9p"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreadedDLL"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREADS_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Lobovikov/Programming/labs/OOP/lab2/build/CMakeFiles/CMakeScratch/TryCompile-jlar9p'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/MSBuild.exe" cmTC_497c5.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        Microsoft (R) Build Engine версии 16.11.2+f32259642 для .NET Framework
+        (C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+        
+        Сборка начата 08.10.2025 0:17:33.
+        Проект "C:\\Lobovikov\\Programming\\labs\\OOP\\lab2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jlar9p\\cmTC_497c5.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        PrepareForBuild:
+          Создание каталога "cmTC_497c5.dir\\Debug\\".
+          Создание каталога "C:\\Lobovikov\\Programming\\labs\\OOP\\lab2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jlar9p\\Debug\\".
+          Создание каталога "cmTC_497c5.dir\\Debug\\cmTC_497c5.tlog\\".
+        InitializeBuildStatus:
+          Создание "cmTC_497c5.dir\\Debug\\cmTC_497c5.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_497c5.dir\\Debug\\\\" /Fd"cmTC_497c5.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Lobovikov\\Programming\\labs\\OOP\\lab2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jlar9p\\CheckFunctionExists.c"
+          Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.29.30159 для x64
+          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+          CheckFunctionExists.c
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_497c5.dir\\Debug\\\\" /Fd"cmTC_497c5.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Lobovikov\\Programming\\labs\\OOP\\lab2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jlar9p\\CheckFunctionExists.c"
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Lobovikov\\Programming\\labs\\OOP\\lab2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jlar9p\\Debug\\cmTC_497c5.exe" /INCREMENTAL /ILK:"cmTC_497c5.dir\\Debug\\cmTC_497c5.ilk" /NOLOGO pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Lobovikov/Programming/labs/OOP/lab2/build/CMakeFiles/CMakeScratch/TryCompile-jlar9p/Debug/cmTC_497c5.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Lobovikov/Programming/labs/OOP/lab2/build/CMakeFiles/CMakeScratch/TryCompile-jlar9p/Debug/cmTC_497c5.lib" /MACHINE:X64  /machine:x64 cmTC_497c5.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: не удается открыть файл "pthreads.lib" [C:\\Lobovikov\\Programming\\labs\\OOP\\lab2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jlar9p\\cmTC_497c5.vcxproj]
+        Сборка проекта "C:\\Lobovikov\\Programming\\labs\\OOP\\lab2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jlar9p\\cmTC_497c5.vcxproj" завершена (целевые объекты по умолчанию) с ошибкой.
+        
+        Ошибка сборки.
+        
+        "C:\\Lobovikov\\Programming\\labs\\OOP\\lab2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jlar9p\\cmTC_497c5.vcxproj" (целевой объект по умолчанию) (1) ->
+        (Целевой объект Link) -> 
+          LINK : fatal error LNK1104: не удается открыть файл "pthreads.lib" [C:\\Lobovikov\\Programming\\labs\\OOP\\lab2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jlar9p\\cmTC_497c5.vcxproj]
+        
+            Предупреждений: 0
+            Ошибок: 1
+        
+        Прошло времени 00:00:00.57
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CheckLibraryExists.cmake:154 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindThreads.cmake:112 (check_library_exists)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindThreads.cmake:176 (_threads_check_lib)"
+      - "build/_deps/googletest-src/googletest/cmake/internal_utils.cmake:66 (find_package)"
+      - "build/_deps/googletest-src/googletest/CMakeLists.txt:83 (config_compiler_and_linker)"
+    checks:
+      - "Looking for pthread_create in pthread"
+    directories:
+      source: "C:/Lobovikov/Programming/labs/OOP/lab2/build/CMakeFiles/CMakeScratch/TryCompile-pdjvee"
+      binary: "C:/Lobovikov/Programming/labs/OOP/lab2/build/CMakeFiles/CMakeScratch/TryCompile-pdjvee"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreadedDLL"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREAD_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Lobovikov/Programming/labs/OOP/lab2/build/CMakeFiles/CMakeScratch/TryCompile-pdjvee'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/MSBuild.exe" cmTC_5d220.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        Microsoft (R) Build Engine версии 16.11.2+f32259642 для .NET Framework
+        (C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+        
+        Сборка начата 08.10.2025 0:17:34.
+        Проект "C:\\Lobovikov\\Programming\\labs\\OOP\\lab2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pdjvee\\cmTC_5d220.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        PrepareForBuild:
+          Создание каталога "cmTC_5d220.dir\\Debug\\".
+          Создание каталога "C:\\Lobovikov\\Programming\\labs\\OOP\\lab2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pdjvee\\Debug\\".
+          Создание каталога "cmTC_5d220.dir\\Debug\\cmTC_5d220.tlog\\".
+        InitializeBuildStatus:
+          Создание "cmTC_5d220.dir\\Debug\\cmTC_5d220.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_5d220.dir\\Debug\\\\" /Fd"cmTC_5d220.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Lobovikov\\Programming\\labs\\OOP\\lab2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pdjvee\\CheckFunctionExists.c"
+          Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.29.30159 для x64
+          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+          CheckFunctionExists.c
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_5d220.dir\\Debug\\\\" /Fd"cmTC_5d220.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Lobovikov\\Programming\\labs\\OOP\\lab2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pdjvee\\CheckFunctionExists.c"
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Lobovikov\\Programming\\labs\\OOP\\lab2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pdjvee\\Debug\\cmTC_5d220.exe" /INCREMENTAL /ILK:"cmTC_5d220.dir\\Debug\\cmTC_5d220.ilk" /NOLOGO pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Lobovikov/Programming/labs/OOP/lab2/build/CMakeFiles/CMakeScratch/TryCompile-pdjvee/Debug/cmTC_5d220.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Lobovikov/Programming/labs/OOP/lab2/build/CMakeFiles/CMakeScratch/TryCompile-pdjvee/Debug/cmTC_5d220.lib" /MACHINE:X64  /machine:x64 cmTC_5d220.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: не удается открыть файл "pthread.lib" [C:\\Lobovikov\\Programming\\labs\\OOP\\lab2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pdjvee\\cmTC_5d220.vcxproj]
+        Сборка проекта "C:\\Lobovikov\\Programming\\labs\\OOP\\lab2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pdjvee\\cmTC_5d220.vcxproj" завершена (целевые объекты по умолчанию) с ошибкой.
+        
+        Ошибка сборки.
+        
+        "C:\\Lobovikov\\Programming\\labs\\OOP\\lab2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pdjvee\\cmTC_5d220.vcxproj" (целевой объект по умолчанию) (1) ->
+        (Целевой объект Link) -> 
+          LINK : fatal error LNK1104: не удается открыть файл "pthread.lib" [C:\\Lobovikov\\Programming\\labs\\OOP\\lab2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pdjvee\\cmTC_5d220.vcxproj]
+        
+            Предупреждений: 0
+            Ошибок: 1
+        
+        Прошло времени 00:00:00.54
+        
+      exitCode: 1
+...
